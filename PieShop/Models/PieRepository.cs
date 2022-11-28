@@ -30,7 +30,7 @@ namespace PieShop.Models
 
         public Pie? GetPieById(int pieId)
         {
-            throw new NotImplementedException();
+            return pieShopContext.Pies.FirstOrDefault(p => p.PieId == pieId);
         }
     }
 }
