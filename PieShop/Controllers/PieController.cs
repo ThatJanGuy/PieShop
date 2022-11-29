@@ -21,7 +21,7 @@ namespace PieShop.Controllers
             //return View(pieRepository.AllPies);
 
             PieListViewModel piesListViewModel = new PieListViewModel
-                (pieRepository.AllPies, "Cheese Cakes");
+                (pieRepository.AllPies, "All Pies");
             return View(piesListViewModel);
         }
 
