@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Remove="ICategoryRepository.cs" />
+    <Compile Remove="Models\Interface.cs" />
   </ItemGroup>
 
   <ItemGroup>
