@@ -1,4 +1,3 @@
-using BethanysPieShop.Models;
 using Microsoft.EntityFrameworkCore;
 using PieShop.Models;
 

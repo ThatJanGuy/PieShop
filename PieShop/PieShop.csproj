@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Components\Index.cshtml" />
     <Content Remove="Views\Pie\DetailsView.cshtml" />
   </ItemGroup>
 
