@@ -2,14 +2,14 @@
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly PieShopDbContext pieShopDbContext;
+        private readonly PieShopDbContext _pieShopDbContext;
 
         public CategoryRepository(PieShopDbContext pieShopDbContext)
         {
-            this.pieShopDbContext = pieShopDbContext;
+            _pieShopDbContext = pieShopDbContext;
         }
 
         public IEnumerable<Category> AllCategories => 
-            pieShopDbContext.Categories.OrderBy(c => c.CategoryName);
+            _pieShopDbContext.Categories.OrderBy(c => c.CategoryName);
     }
 }

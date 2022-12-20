@@ -3,11 +3,13 @@
   "defaultProvider": "cdnjs",
   "libraries": [
     {
+      "provider": "cdnjs",
       "library": "bootstrap@5.2.3",
       "destination": "wwwroot/lib/bootstrap/"
     },
     {
-      "library": "jquery@3.6.1",
+      "provider": "cdnjs",
+      "library": "jquery@3.6.0",
       "destination": "wwwroot/lib/jquery/"
     }
   ]
